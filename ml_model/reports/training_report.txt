@@ -1,0 +1,24 @@
+Scam Detection Model — Training Report
+Generated: 2026-04-02 00:01:17
+============================================================
+
+Dataset size : 58 rows
+Scam samples : 28
+Legit samples: 30
+Train / Test : 43 / 15
+Threshold    : 0.5
+
+Cross-validation (5-fold)
+  Mean F1-macro: 0.882
+  Std  F1-macro: 0.0715
+  Per-fold     : [0.8888888888888888, 0.775, 1.0, 0.873015873015873, 0.873015873015873]
+
+Test-set metrics
+  ROC-AUC   : 1.0
+  F1 (macro): 0.9321
+
+Classification report:
+  Legitimate: precision=0.8889 recall=1.0000 f1=0.9412
+  Scam: precision=1.0000 recall=0.8571 f1=0.9231
+  macro avg: precision=0.9444 recall=0.9286 f1=0.9321
+  weighted avg: precision=0.9407 recall=0.9333 f1=0.9327
