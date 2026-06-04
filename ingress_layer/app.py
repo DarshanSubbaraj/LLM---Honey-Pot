@@ -8,7 +8,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO
 )
 
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
 
 # 🧠 IN-MEMORY STATE SYSTEM (Simulating Sequence Modeling & Persistence)
 # Tracks the rolling score, message order, and escalation signals across turns
